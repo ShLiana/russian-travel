@@ -6,6 +6,7 @@
   color: white;
   text-decoration: none;
   font-family: "Inter", "Arial", sans-serif;
+  cursor: pointer;
 }
 
 .header__lang-link_active {
