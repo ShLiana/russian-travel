@@ -4,7 +4,7 @@
   margin-top: 40px;
   padding: 0;
   margin-left: 0;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   line-height: 26px;
   font-weight: 400;
   font-size: 16px;
@@ -14,22 +14,19 @@
 
 @media screen and (max-width: 1024px) and (min-width: 767px) {
   .intro__text {
-    max-width: 690px;
-    padding: 0;
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 321px) {
   .intro__text {
-    max-width: 720px;
-    padding: 0 0 0 25px;
+    max-width: 100%;
+    padding-left: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__text {
-    max-width: 288px;
-    margin: 39px 0px 22px 0px;
+    margin: 39px 0 22px 0;
   }
 }

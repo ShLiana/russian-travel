@@ -1,29 +1,26 @@
 .header__lang-link {
-  max-width: 30px;
-  margin-left: 15px;
+  margin-left: 19px;
   line-height: 28px;
   font-weight: 400;
   font-size: 24px;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
-  font-family: "inter", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
 }
 
-.header__lang-link:first-child {
+.header__lang-link_active {
   margin-left: 0;
-  text-decoration: 1px underline;
+  text-decoration: 2px underline;
   text-underline-offset: 6px;
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
-    max-width: 22px;
-    line-height: 18px;
+    line-height: 20px;
     font-size: 18px;
   }
 
-  .header__lang-link:first-child {
-    text-underline-offset: 1px;
+  .header__lang-link_active {
     text-decoration: 1px underline;
   }
 }

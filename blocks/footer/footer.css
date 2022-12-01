@@ -3,39 +3,42 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 1px 48px 23px;
+  padding: 1px 48px 6px;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .footer {
     max-width: 928px;
-    padding: 0 48px 22px;
+    padding: 2px 0 8px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 692px) {
   .footer {
-    max-width: 720px;
-    padding: 0px 25px 22px;
+    max-width: calc(100% - 2 * 24px);
+    padding: 0 0 7px;
+    margin-top: 71px;
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 321px) {
+@media screen and (max-width: 691px) and (min-width: 321px) {
   .footer {
-    max-width: 100%;
-    padding: 0px 25px 22px;
+    max-width: 186px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
     flex-direction: column;
-    padding-top: 0;
+    margin-top: 48px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer {
     max-width: 186px;
-    padding-bottom: 23px;
-    padding-left: 0;
-    margin: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
     flex-direction: column;
-    padding-top: 0;
+    margin-top: 48px;
   }
 }

@@ -1,20 +1,17 @@
-.footer__calendar-link {
-  max-width: 86px;
+.footer__link {
   color: #ffffff;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   line-height: 18px;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  margin-left: 15px;
 }
 
 @media screen and (max-width: 320px) {
-  .footer__calendar-link {
+  .footer__link {
     font-size: 24px;
     line-height: 24px;
-    max-width: 124px;
     padding: 0;
     margin: 0;
   }

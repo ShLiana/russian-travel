@@ -1,20 +1,33 @@
 .footer__copyright {
   max-width: 186px;
   color: #ffffff;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   line-height: 18px;
   font-weight: 400;
   font-size: 14px;
   text-align: end;
   text-decoration: none;
-  margin-right: 0;
+  margin: 17px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin: 18px 0 0;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  .footer__content_copyright {
+  .footer__copyright {
     font-size: 14px;
     line-height: 14px;
     max-width: 186px;
-    padding-top: 46px;
+    margin: 32px 0;
   }
 }

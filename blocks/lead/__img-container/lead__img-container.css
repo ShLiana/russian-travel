@@ -1,25 +1,23 @@
-.lead {
+.lead__img-container {
   max-width: 984px;
-  margin: 0 auto;
-  display: block;
-  padding-top: 0;
+  margin: 64px auto;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-  .lead {
-    max-width: 928px;
+  .lead__img-container {
+    max-width: 100%;
+    margin-top: 56px;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 321px) {
-  .lead {
-    max-width: 768px;
+  .lead__img-container {
+    margin: 26px auto 0;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .lead {
-    max-width: 320px;
-    margin: 0;
+  .lead__img-container {
+    margin-top: 0;
   }
 }

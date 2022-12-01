@@ -9,14 +9,14 @@
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .header {
     max-width: 928px;
-    padding: 28px 48px 48px;
+    padding-bottom: 48px;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 321px) {
   .header {
     max-width: 720px;
-    padding: 28px 24px 48px;
+    padding: 28px 24px 49px;
   }
 }
 
