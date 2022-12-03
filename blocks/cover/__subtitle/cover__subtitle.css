@@ -6,29 +6,13 @@
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  margin: 185px auto 0;
-  z-index: 2;
-  position: absolute;
+  margin: 0 auto 0;
+  position: relative;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 640px) and (min-width: 321px) {
   .cover__subtitle {
-    margin-top: 186px;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-width: 599px) {
-  .cover__subtitle {
-    margin-top: 184px;
-  }
-}
-
-@media screen and (max-width: 598px) and (min-width: 321px) {
-  .cover__subtitle {
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 184px;
-    max-width: 288px;
+    font-size: 16px;
   }
 }
 
@@ -36,6 +20,6 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    margin: 84px auto 0;
+    margin-top: 2px;
   }
 }

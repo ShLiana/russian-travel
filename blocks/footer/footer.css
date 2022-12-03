@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 1px 48px 6px;
+  padding: 1px 48px 8px;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
@@ -16,28 +16,19 @@
 @media screen and (max-width: 768px) and (min-width: 692px) {
   .footer {
     max-width: calc(100% - 2 * 24px);
-    padding: 0 0 7px;
+    padding: 0 1px 9px;
     margin-top: 71px;
   }
 }
 
-@media screen and (max-width: 691px) and (min-width: 321px) {
+@media screen and (max-width: 691px) {
   .footer {
     max-width: 186px;
     margin-bottom: 0;
     margin-left: 0;
-    padding: 0;
-    flex-direction: column;
-    margin-top: 48px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer {
-    max-width: 186px;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 24px;
     flex-direction: column;
     margin-top: 48px;
   }

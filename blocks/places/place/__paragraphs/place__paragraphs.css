@@ -9,24 +9,19 @@
 
 @media screen and (max-width: 1024px) and (min-width: 820px) {
   .place__paragraphs {
-    margin: 0 auto 0;
-    padding-left: 0;
     grid-template-columns: minmax(352px, 456px);
   }
 }
 
 @media screen and (max-width: 819px) and (min-width: 684px) {
   .place__paragraphs {
-    margin: 0 auto 0;
-    padding-left: 0;
     grid-template-columns: minmax(288px, 352px);
+ 
   }
 }
 
 @media screen and (max-width: 683px) and (min-width: 321px) {
   .place__paragraphs {
-    margin: 0 auto 0;
-    padding-left: 0;
     grid-template-columns: minmax(288px, 320px);
   }
 }

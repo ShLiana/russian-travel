@@ -3,15 +3,3 @@
   object-fit: cover;
   display: block;
 }
-
-@media screen and (max-width: 768px) and (min-width: 321px) {
-  .photo-grid__item {
-    min-width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .photo-grid__item {
-    max-width: 100%;
-  }
-}

@@ -32,7 +32,6 @@
 @media screen and (max-width: 320px) {
   .intro__title {
     max-width: 288px;
-    margin: 63px 1px 45px 11px;
     margin-top: 64px;
     margin-left: 0;
     margin-bottom: 0;

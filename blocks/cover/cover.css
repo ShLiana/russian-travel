@@ -1,48 +1,17 @@
 .cover {
   margin: 92px auto 75px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
   max-width: 1184px;
-  min-height: 740px;
-}
-
-@media screen and (max-width: 1190px) and (min-width: 1025px) {
-  .cover {
-    min-height: 640px;
-  }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 769px) {
-  .cover {
-    min-height: 640px;
-  }
 }
 
 @media screen and (max-width: 768px) and (min-width: 507px) {
   .cover {
     margin: 0 auto 0;
-    min-height: 480px;
-  }
-}
-
-@media screen and (max-width: 506px) and (min-width: 370px) {
-  .cover {
-    min-width: 100%;
-    min-height: 460px;
-  }
-}
-
-@media screen and (max-width: 369px) and (min-width: 321px) {
-  .cover {
-    min-width: 100%;
-    min-height: 320px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    margin: 0 auto 0;
-    min-height: 200px;
+    margin-top: 1px;
+    margin-bottom: 1px;
   }
 }
