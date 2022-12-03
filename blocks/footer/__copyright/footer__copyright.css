@@ -7,18 +7,12 @@
   font-size: 14px;
   text-align: end;
   text-decoration: none;
-  margin: 17px 0;
-}
-
-@media screen and (max-width: 768px) {
-  .footer__copyright {
-    margin: 18px 0 0;
-  }
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 14px;
-    margin-top: 32px;
+    margin-top: 47px;
   }
 }

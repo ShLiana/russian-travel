@@ -8,6 +8,7 @@
   font-size: 18px;
   text-align: left;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {

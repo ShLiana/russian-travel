@@ -12,13 +12,13 @@
   padding-left: 0;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+/*@media screen and (max-width: 1024px) and (min-width: 769px) {
   .intro__title {
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 0;
   }
-}
+}*/
 
 @media screen and (max-width: 467px) and (min-width: 321px) {
   .intro__title {
